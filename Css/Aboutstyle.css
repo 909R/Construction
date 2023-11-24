@@ -1,0 +1,441 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+max-width: 1150px;
+padding: 0 20px;
+width: 100%;
+margin: 0 auto; 
+box-sizing: border-box;
+}
+/*-------------topber----------------*/
+
+.topber-parents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-emphasis-color: #ffffff ;
+}
+.topber-section{
+    background-color: #173a69;
+    padding: 10px 0 10px 0;
+}
+
+.topber1 .contact ul {
+
+display: flex;
+list-style: none;
+}
+.topber1 .contact ul li{
+
+    margin-right:80px;
+
+
+}
+
+
+.topber1 .contact ul li i { 
+
+    color: #ffffff;
+    padding-right: 8px;
+
+}
+
+.topber1 .contact ul li a{
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+.topber2 .social-icon ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+.topber2 .social-icon ul li{
+
+    margin-left: 32px;
+}
+
+
+.topber2 .social-icon ul li a i {
+
+
+    color: #ffffff;
+
+
+} 
+/*-----------------------------menubar------------*/
+
+
+.menubar-section .menubar-parents{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+} 
+
+.menubar-section .menubar-two .menue{
+    padding-top: 30px;
+}
+
+
+.menubar-section .menubar-two .menue ul { 
+
+list-style: none;
+display: flex; 
+padding-left: 80px
+;
+}
+.menubar-section .menubar-two .menue ul li{
+    padding-left: 80px;
+}
+.menubar-section .menubar-two .menue ul li a 
+{ text-decoration: none;
+   color:#000;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 0 0 0 20px;
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.about-us-section {
+   
+    background:#585757 url(../img/about\ bg\ 1.jpg);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+    
+.about-us-section .aboutus-parents  {
+    text-align: center;
+    padding: 100px 0 100px 0;
+
+    
+
+}
+.about-us-section .aboutus-parents h1{
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+.about-us-section .aboutus-parents p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #cecece;
+
+}
+
+/*--------------welcome -----------*/
+
+.welcome-section{
+    background-color:#f0f0f0;
+}
+
+
+.welcome-section .welcome-parents {
+    display: flex;
+    column-gap: 37px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    justify-content: center;
+}
+
+.welcome-section .welcome-parents .onecontent .content h2 {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: baseline;
+}
+
+.welcome-section .welcome-parents .onecontent .content h2 p {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: #173a69;
+    font-weight: 900;
+    padding-left: 10px;
+}
+
+.welcome-section .welcome-parents .onecontent .content img {
+   
+    margin: 18px 0 20px 1px;
+}
+
+.welcome-section .welcome-parents .onecontent .content p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    max-width: 570px;
+    margin-bottom: 20px;
+}
+
+/*-----------------------design-section-------------*/
+
+.design-section{
+    padding: 80px 0 80px 0;
+    background-image: url(../img/design\ -bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.design-section .design-parents{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 30px;
+
+}
+
+.design-section .design-parents .seles{
+
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px 20px 50px 20px;
+
+}
+
+.design-section .design-parents .seles img{
+
+    padding-bottom: 20px;
+}
+.design-section .design-parents .seles h2{
+    color: #173a69;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.design-section .design-parents .seles p{
+   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.design-section .design-parents .seles p b{
+
+    font-weight: 600;
+    color: #36547d;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+.design-section .design-parents .design{
+    
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px 20px 50px 20px;
+}
+
+.design-section .design-parents .design img{
+
+    padding-bottom: 20px;
+}
+.design-section .design-parents .design h2{
+    color: #173a69;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.design-section .design-parents .design p{
+   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.design-section .design-parents .design p b{
+
+    font-weight: 600;
+    color: #36547d;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.design-section .design-parents .custom {
+    
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px 20px 50px 20px;
+}
+
+.design-section .design-parents .custom img{
+
+    padding-bottom: 20px;
+}
+.design-section .design-parents .custom h2{
+    color: #173a69;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.design-section .design-parents .custom p{
+   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.design-section .design-parents .custom p b{
+
+    font-weight: 600;
+    color: #36547d;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/*----------------------silver hawk-----------*/
+
+.section-silver-hawk p{
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold ;
+    padding: 48px 0 48px 0;
+    text-align: center;
+
+}
+.section-silver-hawk p b{ 
+    color: #173a69;
+
+
+}
+
+/*--------------------questions-section---------------------*/
+
+
+.questions-section{
+    background-image: url(../img/questions\ bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.questions-section .questions-parents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 80px 0 125px 0;
+}
+
+.questions-section .questions-parents .question{
+    text-align: center;
+}
+.questions-section .questions-parents .question h2{
+    padding: 40px 0 25px 0;
+    color: #173a69;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.questions-section .questions-parents .question p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.questions-section .questions-parents .maintenance{
+    text-align: center;
+}
+.questions-section .questions-parents .maintenance h2{
+    padding: 40px 0 25px 0;
+    color: #173a69;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.questions-section .questions-parents .maintenance p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+.questions-section .questions-parents .state{
+    text-align: center;
+}
+.questions-section .questions-parents .state h2{
+    padding: 40px 0 25px 0;
+    color: #173a69;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.questions-section .questions-parents .state p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+ /*---------------contract section--------------*/
+
+ .contract-section{
+
+    background-color: #173a69;
+
+    color: #ffffff;
+}
+
+
+.contract-section .container h3
+ {
+    padding: 60px;
+    text-align: center;
+    margin: 0;
+ }
+
+ /*----------------end logo--------*/
+
+.end-logo .container img {
+     
+padding-top: 60px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.end-logo .emoji-parents {
+
+    text-align: center;
+    padding-bottom: 60px;
+
+
+}
+.end-logo .emoji-parents a i{ 
+    
+    color: #979791;
+    padding-right: 10px;
+
+}
+
+
+
+            /*---------------footer--------*/
+
+.footer p {
+    background-color: #000;
+    color: #f1f1e8;
+    padding: 36px;
+    text-align: center;
+}
+

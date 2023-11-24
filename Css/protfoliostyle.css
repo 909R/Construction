@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+max-width: 1150px;
+padding: 0 20px;
+width: 100%;
+margin: 0 auto; 
+box-sizing: border-box;
+}
+/*-------------topber----------------*/
+
+.topber-parents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-emphasis-color: #ffffff ;
+}
+.topber-section{
+    background-color: #173a69;
+    padding: 10px 0 10px 0;
+}
+
+.topber1 .contact ul {
+
+display: flex;
+list-style: none;
+}
+.topber1 .contact ul li{
+
+    margin-right:80px;
+
+
+}
+
+
+.topber1 .contact ul li i { 
+
+    color: #ffffff;
+    padding-right: 8px;
+
+}
+
+.topber1 .contact ul li a{
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+.topber2 .social-icon ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+.topber2 .social-icon ul li{
+
+    margin-left: 32px;
+}
+
+
+.topber2 .social-icon ul li a i {
+
+
+    color: #ffffff;
+
+
+} 
+/*-----------------------------menubar------------*/
+
+
+.menubar-section .menubar-parents{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+} 
+
+.menubar-section .menubar-two .menue{
+    padding-top: 30px;
+}
+
+
+.menubar-section .menubar-two .menue ul { 
+
+list-style: none;
+display: flex; 
+padding-left: 80px
+;
+}
+.menubar-section .menubar-two .menue ul li{
+    padding-left: 80px;
+}
+.menubar-section .menubar-two .menue ul li a 
+{ text-decoration: none;
+   color:#000;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 0 0 0 20px;
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+.contact-us-section {
+   
+    background:#585757 url(../img/about\ bg\ 1.jpg);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+    
+.contact-us-section .contactus-parents  {
+    text-align: center;
+    padding: 100px 0 100px 0;
+
+    
+
+}
+.contact-us-section .contactus-parents h1{
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+.contact-us-section .contactus-parents p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #cecece;
+
+}
+/*----------------img-section------------------*/
+.img-section{
+    padding: 90px 0 115px 0;
+    width: 100%;
+
+}
+
+.img-section .img-parentss {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+   column-gap: 30px;
+   row-gap: 30px;
+
+}
+
+.img-section .img-parentss img{
+    width: 100%;
+}
+
+ /*---------------contract section--------------*/
+
+ .contract-section{
+
+    background-color: #173a69;
+
+    color: #ffffff;
+}
+
+
+.contract-section .container h3
+ {
+    padding: 60px;
+    text-align: center;
+    margin: 0;
+ }
+
+ /*----------------end logo--------*/
+
+.end-logo .container img {
+     
+padding-top: 60px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.end-logo .emoji-parents {
+
+    text-align: center;
+    padding-bottom: 60px;
+
+
+}
+.end-logo .emoji-parents a i{ 
+    
+    color: #979791;
+    padding-right: 10px;
+
+}
+
+
+
+/*---------------footer--------*/
+
+.footer p {
+    background-color: #000;
+    color: #f1f1e8;
+    padding: 36px;
+    text-align: center;
+}
+
+
+
